@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zen Dance Studio</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="script.js" ></script>
+</head>
+<body>
+    <header>
+        <div class="bara_logo">
+            <img src="images/logo.png" alt="Logo Zen Dance Studio">
+            <h1>Zen <span class="highlight">Dance</span> Studio</h1>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">DESPRE NOI</a></li>
+                <li><a href="inscriere.html">INSCRIERE</a></li>
+                <li class="dropdown">
+                    <a href="classes.html">CURSURI</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#cursuri-copii">Cursuri pentru Copii</a></li>
+                        <li><a href="#cursuri-adolescenti">Cursui pentru Adolescenți</a></li>
+                        <li><a href="#cursuri-nunta">Lectii de Dans pentru Nunta</a></li>
+                    </ul>
+                </li>                    
+                <li><a href="gallery.html">GALERIE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="background" id="dance-section">
+            <div class="content">
+                <button onclick="getNewColor()" id="button1" type="button" name="button">Dansează</button>
+                <h2><span class="highlight2">cu pasiune</span></h2>
+            </div>
+        </section>
+        
+        <div id="popup-oferta" class="popup-oferta" style="display: none">
+            <p><strong>Ofertă specială!</strong></p>
+            <p>Înscrie-te acum și primești prima lecție GRATUITĂ!</p>
+            <p>Email: <a href="mailto:zendancestudio@gmail.com">zendancestudio@gmail.com</a></p>
+            <a href="inscriere.html" class="link"  id="btn-inchide">Înscrie-te</a>
+            <button onclick="closePopup()" id="btn-inchide" class="btn-inchide">Închide</button>
+        </div>
+
+        <section class="separator">
+            <div class="message">
+                <h2>ÎNCEPE CĂLĂTORIA TA ACUM!</h2>
+                <h3>Învață să dansezi cu pasiune!</h3>
+            </div>
+            <br>
+            <a href="classes.html" class="link">Descoperă cursurile noastre</a>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <h2>Despre Noi</h2>
+                <p>
+                    La Zen Dance Studio, pasiunea pentru dans este în centrul fiecărei lecții pe care o oferim. Fie că vrei să înveți dansuri moderne sau clasice, te ajutăm să-ți dezvolți abilități și să te exprimi liber prin mișcare. Aici găsești un mediu prietenos și profesionist, în care fiecare pas contează.
+                </p>
+                <p>
+                    Echipa noastră de instructori este formată din profesioniști cu experiență care te vor ghida pas cu pas pentru a-ți atinge obiectivele. Indiferent dacă ești începător sau avansat, cursurile noastre sunt adaptate tuturor nivelelor de pregătire.
+                </p>
+            </div>
+            <br>
+            <a href="about.html" class="link">Citeste mai mult</a>
+        </section>
+
+        <section id="benefits" class="benefits-section">
+            <div class="benefits-content">
+                <h2>Beneficiile Dansului</h2>
+                <ul>
+                    <li class="benefit-item">
+                        <i class="fas fa-heartbeat"></i>
+                        <h3>ÎMBUNĂTĂȚEȘTE SĂNĂTATEA</h3>
+                        <p>Dansând îți crești tonusul muscular și deprinzi o postura corectă a corpului. Dansul este atât artă, cât și sport!</p>
+                    </li>
+                    <li class="benefit-item">
+                        <i class="fas fa-dumbbell"></i>
+                        <h3>TE MENȚINE ÎN FORMA</h3>
+                        <p>Dansul este probabil cea mai plăcută metodă prin care poți să arzi calorii și să te menții într-o formă fizică bună. De ce să alergi când poți dansa?</p>
+                    </li>
+                    <li class="benefit-item">
+                        <i class="fas fa-smile"></i>
+                        <h3>TE ELIBEREAZĂ DE STRES</h3>
+                        <p>Cei care dansează frecvent au o imagine de sine mai bună, devin mai optimiști și mai încrezători în ei. Dansul te relaxează și te scapă de stresul acumulat.</p>
+                    </li>
+                    <li class="benefit-item">
+                        <i class="fas fa-users"></i>
+                        <h3>ÎȚI FACI PRIETENI NOI</h3>
+                        <p>Dansând te exprimi altfel decât reușești să o faci prin cuvinte. De acum poți să devii sufletul petrecerilor și să cunoști oameni noi și interesanți.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <a href="https://www.facebook.com/zendancestudioo" target="_blank" class="social-icon facebook">
+            <i class="	fab fa-facebook-square"></i>
+        </a>
+        <a href="https://www.instagram.com/zendancestudio/" target="_blank" class="social-icon instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCSTB2j6lRSz2ns758vu3mbw" target="_blank" class="social-icon youtube">
+            <i class="fab fa-youtube"></i>
+        </a>
+        
+    </footer>
+</body>
+</html>

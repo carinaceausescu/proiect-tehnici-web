@@ -1,0 +1,38 @@
+[
+    {
+        "nume": "Andreea",
+        "stilDans": "Balet",
+        "email": "andreea@yahoo.ro"
+    },
+
+    {
+        "nume": "Cosmin",
+        "stilDans": "Tango",
+        "email": "cosmin@gmail.com"
+    },
+
+    {
+        "nume": "Iulia",
+        "stilDans": "Salsa",
+        "email": "iulia123@gmail.com"
+    },
+
+    {
+        "nume": "Marius",
+        "stilDans": "Hip-hop",
+        "email": "marius6@yahoo.ro"
+    },
+
+    {
+        "nume": "Ilinca",
+        "stilDans": "Tango",
+        "email": "ili@gmail.com"
+    },
+
+    {
+        "nume": "Carina",
+        "stilDans": "Balet",
+        "email": "carina.c@gmail.com"
+    }
+
+]
